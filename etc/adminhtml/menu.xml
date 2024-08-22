@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="ArmMage_AutoCouponApply::AutoCoupon" title="ArmMage" translate="title" module="ArmMage_AutoCouponApply" sortOrder="10" resource="ArmMage_AutoCouponApply::AutoCoupon"/>
+        <add id="ArmMage_AutoCouponApply::manage" title="AutoCoupon" translate="title" module="ArmMage_AutoCouponApply" sortOrder="10" parent="ArmMage_AutoCouponApply::AutoCoupon" action="adminhtml/system_config/edit/section/armmage" resource="ArmMage_AutoCouponApply::manage"/></menu>
+</config>
